@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bogdán László - Webfejlesztő portfólió oldal">
+    <meta name="keywords" content="webfejlesztő, webdesign, programozás, portfólió">
+    <meta name="author" content="Bogdán László">
+    <title>BuildMyWebSite</title>
+    
+    <!--  -->
+    <link rel="stylesheet" href="style.css" as="style">
+    <link rel="preload" href="main.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+            <h1 class="logo me-auto">
+                <a href="#hero"> @ </a>
+                
+            </h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero"><b>Home</b></a></li>
+                    <li><a class="nav-link scrollto" href="#about"><b>Rólam</b></a></li>
+                    <li><a class="nav-link scrollto" href="#team"><b>Csapat</b></a></li>
+                    <li><a class="nav-link scrollto" href="#pricing"><b>Csomagok</b></a></li>
+                    <li><a class="nav-link scrollto" href="#contact"><b>Kapcsolat</b></a></li>
+                </ul>
+                <i class="ri-menu-line mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                    <h1>Üdvözöllek</h1>
+                    <h2>Ha érdekel a webdesing/programozás itt a helyed</h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#about" class="btn-get-started scrollto">Kezdjük</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="bogdanlaszlo.png" class="img-fluid animated" alt="Profil kép" loading="lazy" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="clients" class="clients section-bg">
+        <div class="container">
+            <div class="row" data-aos="zoom-in">
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="https://1000logos.net/wp-content/uploads/2023/10/React-Logo.png" class="img-fluid" alt="React" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo-500x313.png" class="img-fluid" alt="JavaScript" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png" class="img-fluid" alt="CSS" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="html.png" class="img-fluid" alt="HTML" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="cs.png" class="img-fluid" alt="C#" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="py.png" class="img-fluid" alt="Python" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="php.png" class="img-fluid" alt="PHP" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" class="img-fluid" alt="MySQL" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="VSCode.png" class="img-fluid" alt="VSCode" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="https://1000logos.net/wp-content/uploads/2023/04/Visual-Studio-logo.png" class="img-fluid" alt="Visual Studio" loading="lazy" width="100" height="100">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="nodejs-logo.png" class="img-fluid" alt="Node.js" loading="lazy" width="100" height="100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about py-5" style="background: #fff;">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center mb-5">
+                <h2 style="color: #8b0000;">Rólam</h2>  
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 p-5">
+                        <div class="card border-0 rounded-4" style="background: #fff;">
+                            <div class="card-body p-5">
+                                <p class="lead text-center mb-4" style="font-size: 1.1rem; color: #555;">
+                                    Bogdán László vagyok, 19 éves.
+                                    A munkám során elszánt és elkötelezett vagyok, a legfontosabb számomra, hogy az ügyfelek igényeinek eleget tudjak tenni
+                                </p>
+                                <div class="alert border-0 rounded-4 mb-4" style="background: linear-gradient(135deg, rgba(139, 0, 0, 0.1) 0%, rgba(139, 0, 0, 0.05) 100%); border-left: 4px solid #8b0000 !important;">
+                                    <h4 class="text-center fw-bold mb-3" style="color: #8b0000;">
+                                        <i class="ri-information-line me-2"></i>Figyelem!
+                                    </h4>
+                                    <p class="text-center fw-bold mb-0" style="color: #8b0000; font-size: 1rem;">
+                                        Kezdődő szoftverfejlesztő vagyok, de már több éve foglalkozom a weboldalak készítésével.
+                                        Alapszintű weboldalak készítését vállalom.
+                                    </p>
+                                </div>
+                            
+                                <div class="row mt-4">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card border-0 h-100" style="background: #f8f9fa;">
+                                            <div class="card-body text-center p-3">
+                                                <i class="ri-check-double-line mb-2" style="font-size: 2rem; color: #28a745;"></i>
+                                                <h6 class="fw-bold mb-0 text-dark">Szakképesítés</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card border-0 h-100" style="background: #f8f9fa;">
+                                        <div class="card-body text-center p-3">
+                                            <i class="ri-check-double-line mb-2" style="font-size: 2rem; color: #28a745;"></i>
+                                            <h6 class="fw-bold mb-0 text-dark">Referenciák</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card border-0 h-100" style="background: #f8f9fa;">
+                                        <div class="card-body text-center p-3">
+                                            <i class="ri-check-double-line mb-2" style="font-size: 2rem; color: #28a745;"></i>
+                                            <h6 class="fw-bold mb-0 text-dark">Letisztult weboldalak</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team py-5" style="background: #f3f5fa;">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center mb-5">
+                <h2 style="color: #8b0000;">Team</h2>
+                <p class="text-muted mt-3">Jelenleg csak egyedül dolgozom, de lehetnél akár te is a következő munkatársam</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card border-0 rounded-4 h-100" style="background: #fff;">
+                        <div class="card-body p-5">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 text-center mb-4 mb-md-0">
+                                    <div class="position-relative d-inline-block">
+                                        <div class="rounded-circle d-flex align-items-center justify-content-center mx-auto" 
+                                             style="width: 140px; height: 140px; background: linear-gradient(135deg, #8b0000 0%, #b30000 100%); ">
+                                            <i class="ri-user-line text-white" style="font-size: 4rem;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 text-center text-md-start">
+                                    <h4 class="fw-bold mb-2" style="color: #8b0000; font-size: 1.5rem;">Bogdán László</h4>
+                                    <div class="mb-3">
+                                        <span class="badge rounded-pill px-3 py-2" style="background: linear-gradient(135deg, #8b0000 0%, #b30000 100%); color: white; font-size: 0.9rem;">
+                                            Software Developer
+                                        </span>
+                                    </div>
+                                    <p class="text-muted mb-4" style="font-size: 1rem; line-height: 1.6;">
+                                        Szeretnék segíteni az embereknek saját weboldaluk létrehozásában, saját tudásom szeretném átadni
+                                    </p>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="pricing" class="pricing py-5" style="background: #fff;">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center mb-5">
+                <h2 style="color: #8b0000;">Szolgáltatások</h2>
+               
+                <p class="text-muted mt-3">Non-profit szervezetek részére felajánlom szolgáltatásaimat</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 rounded-4 h-100" style="background: #fff; border-top: 5px solid #8b0000 !important;">
+                        <div class="card-header bg-transparent border-0 text-center pt-4">
+                           
+                            <h3 class="fw-bold mb-3" style="color: #8b0000; font-size: 1.4rem;">Non-profit weboldal csomag</h3>
+                            <div class="pricing-value mb-4">
+                                <h2 class="fw-bold mb-0" style="color: #8b0000; font-size: 3rem;">0 Ft</h2>
+                                <p class="text-muted mb-0">egyszeri költség</p>
+                            </div>
+                        </div>
+                        <div class="card-body px-4 pb-4">
+                            <ul class="list-unstyled mb-4">
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bx bx-check text-success me-3" style="font-size: 1.5rem;"></i>
+                                    <span>Egyedi weboldal a szervezetnek</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bx bx-check text-success me-3" style="font-size: 1.5rem;"></i>
+                                    <span>Letisztult dizájn</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bx bx-check text-success me-3" style="font-size: 1.5rem;"></i>
+                                    <span>Karbantartás</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bx bx-check text-success me-3" style="font-size: 1.5rem;"></i>
+                                    <span>Mobilra optimalizált</span>
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <i class="bx bx-check text-success me-3" style="font-size: 1.5rem;"></i>
+                                    <span>Teljeskörű támogatás</span>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="#contact" class="btn btn-lg rounded-pill px-4 py-3 fw-bold" 
+                                   style="background: linear-gradient(135deg, #8b0000 0%, #b30000 100%); color: white; border: none; transition: all 0.3s ease;">
+                                    Vedd fel velem a kapcsolatot
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div id="contact" class="footer-content">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact-info">
+                        <h3 class="mb-4">Kapcsolat</h3>
+                        <div class="contact-item">
+                            <i class="ri-map-pin-line"></i>
+                            <div>
+                                <h4>Cím</h4>
+                                <p>7541 Kutas, Magyarország</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-mail-line"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>laszlobogdan0619@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-phone-line"></i>
+                            <div>
+                                <h4>Telefon</h4>
+                                <p>+36 30 620 9102</p>
+                            </div>
+                        </div>
+                        <div class="footer-social mt-4">
+                            <a href="https://www.facebook.com/laszlo.bogdan.5855/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                            <a href="https://www.instagram.com/_.lackoo_11/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="main.js" defer></script>
+</body>
+</html>
